@@ -1,0 +1,160 @@
+/* Google Fonts Link Here */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+p{
+    padding: 0px;
+    margin: 0px;
+}
+ul,ol{
+    list-style: none;
+    padding: 0px;
+}
+input,
+textarea {
+  border: 0px;
+  outline: 0px;
+}
+button {
+    text-decoration: none;
+    display: inline-block;
+    outline: 0px;
+    border: 0px;
+    cursor: pointer;
+    background-color: transparent;
+    margin: 0 3px;
+}
+
+/**************************************
+* GV Header Top Styling Start
+***************************************/
+.gv-header-top{
+    background-color:rgba(1, 135, 202, 1);
+}
+.gv-header-top .gv-header-text{
+    padding: 8px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gv-header-top .gv-header-text p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 15.2px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.30399999022483826px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+/**************************************
+* GV Header Styling Start
+***************************************/
+header {
+    background: rgba(248, 248, 248, 1);
+    padding: 15px 0;
+}
+
+header .gv-header-warp {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 10px 0;
+}
+header .gv-header-warp .gv-logo{
+    width: 18%;
+}
+header .gv-header-warp .gv-logo a img{
+    width: 100%;
+    height: 100%;
+}
+header .gv-header-warp .gv-search{
+    width: 32%;
+}
+header .gv-header-warp .gv-search form{
+    width: 100%;
+    position: relative;
+}
+header .gv-header-warp .gv-search form .gv-s-icon {
+    position: absolute;
+    top: 14px;
+    left: 16px;
+}
+header .gv-header-warp .gv-search form .gv-s-icon i{
+    font-size: 20px;
+    color: rgba(3, 46, 114, 1);
+}
+header .gv-header-warp .gv-search form input{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid rgba(227, 217, 217, 1);
+    padding: 12px 15px 12px 45px;
+}
+header .gv-header-warp .gv-search form input::placeholder{
+    font-family: Montserrat;
+    font-size: 15.2px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0.30399999022483826px;
+    color: rgba(3, 46, 114, 1);
+
+}
+
+header .gv-header-warp .gv-card{
+    width: 42%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .gv-header-warp .gv-card .gv-info a{
+    display: block;
+    color: rgba(3, 46, 114, 1);
+    margin: 5px 0;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+
+}
+header .gv-header-warp .gv-card .gv-info a i{
+    margin-right: 5px;
+    font-size: 20px;
+    color: rgba(3, 46, 114, 1);
+}
+header .gv-header-warp .gv-card-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0 40px;
+}
+header .gv-header-warp .gv-card-info a{
+    display: inline-block;
+    color: rgba(3, 46, 114, 1);
+    margin: 5px 0;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+}
+header .gv-header-warp .gv-card-info a i{
+    margin-right: 5px;
+    font-size: 20px;
+    color: rgba(3, 46, 114, 1);
+}
+header .gv-header-warp  .gv-mobile-card-info{
+    display: none;
+}
+
+header .gv-header-warp  .gv-mobile-card-info a i{
+    margin-right: 5px;
+    font-size: 20px;
+    color: rgba(3, 46, 114, 1);
+}

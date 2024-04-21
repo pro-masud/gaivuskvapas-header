@@ -1,0 +1,75 @@
+@media screen and (max-width: 1440px) {
+   
+}
+@media screen and (max-width: 1024px) {
+    header .gv-header-warp .gv-logo {
+        width: 22%;
+    }
+    header .gv-header-warp .gv-card .gv-info a {
+        font-size: 14px;
+    }
+    header .gv-header-warp .gv-card .gv-info a i {
+        font-size: 18px;
+    }
+    header .gv-header-warp .gv-card-info {
+        gap: 0 15px;
+    }
+    header .gv-header-warp .gv-card-info a {
+        font-size: 14px;
+    }
+    header .gv-header-warp .gv-card-info a i {
+        font-size: 18px;
+    }
+    header .gv-header-warp .gv-search form input {
+        padding: 10px 15px 10px 45px;
+    }
+}
+@media screen and (max-width: 768px) {
+    header .gv-header-warp .gv-card .gv-info{
+        display: none;
+    }
+    header .gv-header-warp .gv-logo {
+        width: 30%;
+    }
+    header .gv-header-warp .gv-search {
+        width: 40%;
+    }
+    header .gv-header-warp .gv-card {
+        width: 30%;
+    }
+    header .gv-header-warp .gv-card {
+        justify-content: end;
+    }
+}
+@media screen and (max-width: 425px) {
+    .gv-header-top .gv-header-text p {
+        font-size: 16px;
+        line-height: 18px;
+        font-weight: 500;
+    }
+    header .gv-header-warp .gv-logo {
+        width: 40%;
+    }
+    header .gv-header-warp .gv-search{
+        display: none;
+    }
+    header .gv-header-warp .gv-card-info{
+        display: none;
+    }
+    header .gv-header-warp .gv-mobile-card-info {
+        display: flex;
+        gap: 20px;
+    }
+    header .gv-header-warp .gv-mobile-card-info a i{
+        font-size: 24px;
+    }
+}
+@media screen and (max-width: 375px) {
+   
+}
+@media screen and (max-width: 320px) {
+    .gv-header-top .gv-header-text p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
