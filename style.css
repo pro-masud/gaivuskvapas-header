@@ -58,7 +58,6 @@ button {
 ***************************************/
 header {
     background: rgba(248, 248, 248, 1);
-    padding: 15px 0;
 }
 
 header .gv-header-warp {
@@ -156,5 +155,32 @@ header .gv-header-warp  .gv-mobile-card-info{
 header .gv-header-warp  .gv-mobile-card-info a i{
     margin-right: 5px;
     font-size: 20px;
+    color: rgba(3, 46, 114, 1);
+}
+
+.gv-header-bottom{
+    background-color: #fff;
+}
+
+.gv-header-bottom .gb-header-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.gv-header-bottom .gb-header-wrap nav .navbar-toggler i{ 
+    color: #fff;
+    font-size: 30px;
+}
+.gv-header-bottom .gb-header-wrap nav .navbar-nav li{
+    margin: 0 15px;
+}
+.gv-header-bottom .gb-header-wrap nav .navbar-nav li a {
+    font-family: Montserrat;
+    font-size: 15.2px;
+    font-weight: 800;
+    line-height: 50px;
+    letter-spacing: 0.30399999022483826px;
+    text-align: left;
     color: rgba(3, 46, 114, 1);
 }

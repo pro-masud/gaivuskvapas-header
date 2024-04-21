@@ -63,6 +63,9 @@
     header .gv-header-warp .gv-mobile-card-info a i{
         font-size: 24px;
     }
+    .menu-menu{
+        display: none;
+    }
 }
 @media screen and (max-width: 375px) {
    
