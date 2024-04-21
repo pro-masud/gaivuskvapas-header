@@ -30,7 +30,6 @@ button {
     background-color: transparent;
     margin: 0 3px;
 }
-
 /**************************************
 * GV Header Top Styling Start
 ***************************************/
@@ -52,14 +51,12 @@ button {
     text-align: center;
     color: rgba(255, 255, 255, 1);
 }
-
 /**************************************
 * GV Header Styling Start
 ***************************************/
 header {
     background: rgba(248, 248, 248, 1);
 }
-
 header .gv-header-warp {
     width: 100%;
     display: flex;
@@ -106,7 +103,6 @@ header .gv-header-warp .gv-search form input::placeholder{
     color: rgba(3, 46, 114, 1);
 
 }
-
 header .gv-header-warp .gv-card{
     width: 42%;
     display: flex;
@@ -151,25 +147,25 @@ header .gv-header-warp .gv-card-info a i{
 header .gv-header-warp  .gv-mobile-card-info{
     display: none;
 }
-
 header .gv-header-warp  .gv-mobile-card-info a i{
     margin-right: 5px;
     font-size: 20px;
     color: rgba(3, 46, 114, 1);
 }
-
 .gv-header-bottom{
     background-color: #fff;
 }
-
 .gv-header-bottom .gb-header-wrap{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-
+.gv-header-bottom .gb-header-wrap nav .navbar-toggler::focus{
+    outline: none;
+    box-shadow: none;
+}
 .gv-header-bottom .gb-header-wrap nav .navbar-toggler i{ 
-    color: #fff;
+    color: rgba(3, 46, 114, 1);
     font-size: 30px;
 }
 .gv-header-bottom .gb-header-wrap nav .navbar-nav li{
@@ -181,6 +177,61 @@ header .gv-header-warp  .gv-mobile-card-info a i{
     font-weight: 800;
     line-height: 50px;
     letter-spacing: 0.30399999022483826px;
-    text-align: left;
     color: rgba(3, 46, 114, 1);
+}
+.gv-header-bottom .gv-hb-right .gv-choose-item select{
+    font-family: Montserrat;
+    font-size: 15.2px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0.30399999022483826px;
+    border: none;
+    background: none;
+    color: rgb(3, 46, 114);
+    text-transform: uppercase;
+    outline: none;
+    padding: 10px;
+}
+.gv-header-bottom .gv-hb-right .gv-choose-item select::focus{
+    border: none;
+}
+.gv-header-bottom .gv-hb-right .gv-choose-item select{
+    background-color: #fff;
+    border: none;
+    color: rgb(3, 46, 114);
+    padding: 20px 30px;
+}
+.gv-header-bottom .gv-hb-right .gv-choose-item select::focus{
+    background-color: #333;
+}
+
+.gv-header-bottom .gv-hb-right .gv-search form{
+    width: 100%;
+    position: relative;
+}
+.gv-header-bottom .gv-hb-right .gv-search form .gv-s-icon {
+    position: absolute;
+    top: 10px;
+    left: 16px;
+}
+.gv-header-bottom .gv-hb-right.gv-search form .gv-s-icon i{
+    font-size: 20px;
+    color: rgba(3, 46, 114, 1);
+}
+.gv-header-bottom .gv-hb-right .gv-search form input{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid rgba(227, 217, 217, 1);
+    padding: 8px 15px 8px 45px;
+}
+.gv-header-bottom .gv-hb-right .gv-search form input::placeholder{
+    font-family: Montserrat;
+    font-size: 15.2px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0.30399999022483826px;
+    color: rgba(3, 46, 114, 1);
+}
+.gv-header-bottom .gv-hb-right  .gv-search{
+ display: none;
 }

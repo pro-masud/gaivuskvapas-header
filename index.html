@@ -66,11 +66,10 @@
                             <div class="gv-hb-left">
                                 <nav class="navbar navbar-expand-md">
                                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                                        <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                                        <a class="btn" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
                                             <i class="fa-solid fa-bars"></i>
                                           </a>
                                     </button>
-                                   
                                     <div class="collapse navbar-collapse menu-menu" id="navbarSupportedContent">
                                         <ul class="navbar-nav me-auto">
                                             <li><a class="active" aria-current="page" href="#">Parduotuvė</a></li>
@@ -106,7 +105,27 @@
                                     </div>
                                 </nav>
                             </div>
-                            <div class="gv-hb-right"></div>
+                            <div class="gv-hb-right">
+                                <div class="gv-choose-item">
+                                    <select name="name">
+                                        <option value="0">Informacija</option>
+                                        <option value="1">Straipsniai</option>
+                                        <option value="2">Pristatymas</option>
+                                        <option value="3">Atsiliepimai</option>
+                                        <option value="4">DUK</option>
+                                        <option value="5">Apie mus</option>
+                                        <option value="6">Kontaktai</option>
+                                    </select>
+                                </div>
+                                <div class="gv-search">
+                                    <form action="#">
+                                        <div class="gv-s-icon">
+                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                        </div>
+                                        <input placeholder="Kokio produkto ieškote?" type="text">
+                                    </form>
+                                </div>
+                            </div>
                         </div>
                         <!-- <a class="btn" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
                             <i class="fa-solid fa-bars"></i>

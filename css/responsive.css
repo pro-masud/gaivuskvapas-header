@@ -41,7 +41,7 @@
         justify-content: end;
     }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 568px) {
     .gv-header-top .gv-header-text p {
         font-size: 16px;
         line-height: 18px;
@@ -63,7 +63,19 @@
     header .gv-header-warp .gv-mobile-card-info a i{
         font-size: 24px;
     }
+    .gv-header-bottom{
+        background-color: rgba(248, 248, 248, 1);
+    }
     .menu-menu{
+        display: none;
+    }
+    .gv-header-bottom .gv-hb-right{
+        width: 100%;
+    }
+    .gv-header-bottom .gv-hb-right  .gv-search{
+        display: block;
+       }
+    .gv-header-bottom .gv-hb-right .gv-choose-item{
         display: none;
     }
 }
