@@ -71,6 +71,11 @@
     .gv-header-bottom .menu-menu{
         display: none;
     }
+    .main-menu-offcanvas .offcanvas-header button{
+        position: absolute;
+        top: 14px;
+        right: -50px;
+    }
 }
 @media screen and (max-width: 768px) {
     header .gv-header-warp .gv-card .gv-info{
