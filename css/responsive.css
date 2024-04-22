@@ -118,20 +118,37 @@
     .gv-header-bottom .gb-header-wrap nav .navbar-nav li > a {
         font-size: 10px;
     }
+    .menu-menu{
+        width: 100%;
+    }
+    .main-menu-offcanvas .offcanvas-header button{
+        position: absolute;
+        top: 14px;
+        right: -50px;
+    }
 }
 @media screen and (max-width: 530px) {
     .gv-header-bottom .gv-hb-right .gv-search form input::placeholder{
         font-size: 12px;
+    }
+    .offcanvas-start{
+        width: 350px;
     }
 }
 @media screen and (max-width: 375px) {
     .gv-header-bottom .gv-hb-right .gv-search form input::placeholder{
         font-size: 10px;
     }
+    .offcanvas-start {
+        width: 300px;
+    }
 }
 @media screen and (max-width: 320px) {
     .gv-header-top .gv-header-text p {
         font-size: 12px;
         line-height: 18px;
+    }
+    .offcanvas-start {
+        width: 260px;
     }
 }

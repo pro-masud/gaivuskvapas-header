@@ -155,7 +155,7 @@
     <!-- Header Offcanvas Start -->
     <div class="offcanvas offcanvas-start main-menu-offcanvas" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
         <div class="offcanvas-header">
-            <button type="button" class="btn-close text-reset ms-auto" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            <button type="button" class="text-reset ms-auto" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
         </div>
         <div class="offcanvas-body">
             <nav class="navbar navbar-expand-lg">
@@ -207,8 +207,8 @@
                                 </ul>
                             </div>
                         </li>
-                        <li>
-                            <a href="#">Parduotuvė</a>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Parduotuvė</a>
                             <div class="dropdown-menu">
                                 <ul>
                                     <li><a class="dropdown-item" href="#">Visos prekės</a></li>
@@ -257,7 +257,10 @@
                     </ul>
                 </div>
             </nav>
-            
+            <div class="gv-info">
+                <a href="tel:+370 666 29977"><i class="fa-solid fa-phone"></i> +370 666 29977</a>
+                <a href="mailto: name@email.com"><i class="fa-solid fa-envelope"></i> info@gaivuskvapas.lt</a>
+            </div>
         </div>
     </div>
      <!-- Header Offcanvas End -->

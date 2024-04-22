@@ -160,6 +160,9 @@ header .gv-header-warp  .gv-mobile-card-info a i{
     align-items: center;
     justify-content: space-between;
 }
+.gv-header-bottom .gb-header-wrap .navbar .navbar-toggler .btn:focus{
+    box-shadow: none;
+}
 .gv-header-bottom .gb-header-wrap nav .navbar-toggler::focus{
     outline: none;
     box-shadow: none;
@@ -311,4 +314,8 @@ header .gv-header-warp  .gv-mobile-card-info a i{
     margin-right: 5px;
     font-size: 20px;
     color: rgba(154, 154, 154, 1)
+}
+.main-menu-offcanvas .offcanvas-header button i{
+    font-size: 40px;
+    color: #fff;
 }
