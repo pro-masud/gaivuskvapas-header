@@ -168,16 +168,46 @@ header .gv-header-warp  .gv-mobile-card-info a i{
     color: rgba(3, 46, 114, 1);
     font-size: 30px;
 }
-.gv-header-bottom .gb-header-wrap nav .navbar-nav li{
+.gv-header-bottom .gb-header-wrap nav .navbar-nav > li{
     margin: 0 15px;
 }
-.gv-header-bottom .gb-header-wrap nav .navbar-nav li a {
+.gv-header-bottom .gb-header-wrap nav .navbar-nav li > a {
     font-family: Montserrat;
     font-size: 15.2px;
-    font-weight: 800;
+    font-weight: 700;
     line-height: 50px;
     letter-spacing: 0.30399999022483826px;
     color: rgba(3, 46, 114, 1);
+}
+.gv-header-bottom .gb-header-wrap .gv-hb-left .navbar .dropdown-menu.show{
+    display: flex;
+    padding: 30px;
+}
+.gv-header-bottom .gb-header-wrap nav .navbar-nav li .dropdown-menu.show ul li a.dropdown-item{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.30399999022483826px;
+    color: rgba(3, 46, 114, 1);
+}
+.gv-header-bottom .gb-header-wrap nav .navbar-nav li .dropdown-menu.show ul li:first-child a.dropdown-item{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.30399999022483826px;
+    color: rgba(3, 46, 114, 1);
+}
+.gv-header-bottom .gb-header-wrap nav .navbar-nav li .dropdown-menu.show ul li .dropdown-item:hover{
+    background-color: transparent;
+    text-decoration: underline;
+}
+.gv-header-bottom .gb-header-wrap nav .navbar-nav li .dropdown-menu.show ul li .dropdown-item:active{
+    background-color: transparent;
+}
+.gv-header-bottom .gb-header-wrap nav .navbar-nav li .dropdown-menu.show ul li .dropdown-item:focus{
+    background-color: transparent;
 }
 .gv-header-bottom .gv-hb-right .gv-choose-item select{
     font-family: Montserrat;
@@ -191,6 +221,7 @@ header .gv-header-warp  .gv-mobile-card-info a i{
     text-transform: uppercase;
     outline: none;
     padding: 10px;
+    cursor: pointer;
 }
 .gv-header-bottom .gv-hb-right .gv-choose-item select::focus{
     border: none;
@@ -200,6 +231,9 @@ header .gv-header-warp  .gv-mobile-card-info a i{
     border: none;
     color: rgb(3, 46, 114);
     padding: 20px 30px;
+}
+.gv-header-bottom .gv-hb-right .gv-choose-item select option{
+    cursor: pointer;
 }
 .gv-header-bottom .gv-hb-right .gv-choose-item select::focus{
     background-color: #333;

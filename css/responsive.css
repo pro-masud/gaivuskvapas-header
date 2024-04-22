@@ -1,5 +1,16 @@
 @media screen and (max-width: 1440px) {
-   
+    header .gv-header-warp .gv-card .gv-info a {
+        font-size: 14px;
+    }
+    header .gv-header-warp .gv-card .gv-info a i {
+        font-size: 16px;
+    }
+    header .gv-header-warp .gv-card-info a i {
+        font-size: 16px;
+    }
+    header .gv-header-warp .gv-card-info a {
+        font-size: 14px;
+    }   
 }
 @media screen and (max-width: 1024px) {
     header .gv-header-warp .gv-logo {
@@ -23,25 +34,48 @@
     header .gv-header-warp .gv-search form input {
         padding: 10px 15px 10px 45px;
     }
+    .gv-header-bottom .gb-header-wrap nav .navbar-nav li > a {
+        font-size: 14px;
+    }
+    .gv-header-bottom .gb-header-wrap .gv-hb-left .navbar .dropdown-menu.show {
+        display: flex;
+        padding: 7px;
+    }
+}
+@media screen and (max-width: 991px) {
+    header .gv-header-warp .gv-card .gv-info a {
+        font-size: 10px;
+        line-height: 20px;
+    }
+    header .gv-header-warp .gv-card .gv-info a i {
+        font-size: 12px;
+    }
+    header .gv-header-warp .gv-card-info a i {
+        font-size: 12px;
+    }
+    header .gv-header-warp .gv-card-info a {
+        font-size: 10px;
+    }
+    .gv-header-bottom .gb-header-wrap nav .navbar-nav li > a {
+        font-size: 12px;
+    }
+    .gv-header-bottom .gv-hb-right .gv-search form input::placeholder{
+        font-size: 14px;
+    }
+    header .gv-header-warp .gv-card .gv-info a i {
+        margin-right: 2px;
+    }
+    header .gv-header-warp .gv-card-info {
+        gap: 0 11px;
+    }
+    .gv-header-bottom .menu-menu{
+        display: none;
+    }
 }
 @media screen and (max-width: 768px) {
     header .gv-header-warp .gv-card .gv-info{
         display: none;
     }
-    header .gv-header-warp .gv-logo {
-        width: 30%;
-    }
-    header .gv-header-warp .gv-search {
-        width: 40%;
-    }
-    header .gv-header-warp .gv-card {
-        width: 30%;
-    }
-    header .gv-header-warp .gv-card {
-        justify-content: end;
-    }
-}
-@media screen and (max-width: 568px) {
     .gv-header-top .gv-header-text p {
         font-size: 16px;
         line-height: 18px;
@@ -66,7 +100,7 @@
     .gv-header-bottom{
         background-color: rgba(248, 248, 248, 1);
     }
-    .menu-menu{
+    .gv-header-bottom .menu-menu{
         display: none;
     }
     .gv-header-bottom .gv-hb-right{
@@ -78,9 +112,22 @@
     .gv-header-bottom .gv-hb-right .gv-choose-item{
         display: none;
     }
+    header .gv-header-warp .gv-card {
+        justify-content: end;
+    }
+    .gv-header-bottom .gb-header-wrap nav .navbar-nav li > a {
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 530px) {
+    .gv-header-bottom .gv-hb-right .gv-search form input::placeholder{
+        font-size: 12px;
+    }
 }
 @media screen and (max-width: 375px) {
-   
+    .gv-header-bottom .gv-hb-right .gv-search form input::placeholder{
+        font-size: 10px;
+    }
 }
 @media screen and (max-width: 320px) {
     .gv-header-top .gv-header-text p {
