@@ -269,3 +269,46 @@ header .gv-header-warp  .gv-mobile-card-info a i{
 .gv-header-bottom .gv-hb-right  .gv-search{
  display: none;
 }
+.main-menu-offcanvas .offcanvas-body nav ul.navbar-nav  > li{
+    border-bottom: 1px solid rgba(227, 217, 217, 0.3);
+    padding: 12px 0px;
+}
+.main-menu-offcanvas .offcanvas-body nav ul li a{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.30399999022483826px;
+    color: rgba(3, 46, 114, 1);
+}
+
+.main-menu-offcanvas .offcanvas-body nav ul li ul a{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.30399999022483826px;
+    color: rgba(3, 46, 114, 1);
+}
+
+.main-menu-offcanvas .offcanvas-body nav ul li .dropdown-menu.show{
+    border: none;
+}
+.main-menu-offcanvas .gv-info{
+    margin-top: 30px;
+}
+.main-menu-offcanvas .gv-info a{
+    display: block;
+    color: rgba(154, 154, 154, 1);
+    margin: 5px 0;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+
+}
+.main-menu-offcanvas .gv-info a i{
+    margin-right: 5px;
+    font-size: 20px;
+    color: rgba(154, 154, 154, 1)
+}
