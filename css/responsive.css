@@ -2,15 +2,31 @@
     header .gv-header-warp .gv-card .gv-info a {
         font-size: 14px;
     }
-    header .gv-header-warp .gv-card .gv-info a i {
+    header .gv-header-warp .gv-card .gv-info a svg{
         font-size: 16px;
     }
-    header .gv-header-warp .gv-card-info a i {
+    header .gv-header-warp .gv-card-info a svg{
         font-size: 16px;
     }
     header .gv-header-warp .gv-card-info a {
         font-size: 14px;
     }   
+    .gv-header-bottom .gb-header-wrap nav .navbar-nav li > .mega-menu{
+        max-width: 1296px;
+    }
+}
+@media screen and (max-width: 1280px) {
+    .gv-header-bottom .gb-header-wrap nav .navbar-nav li > .mega-menu{
+        width: 1120px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .gv-header-bottom .gb-header-wrap nav .navbar-nav li > .mega-menu{
+        width: 937px;
+    }
+    .gv-header-bottom .gb-header-wrap .gv-hb-left .navbar .mega-men, .gv-header-bottom .gb-header-wrap nav .navbar-nav li:hover > .mega-men{
+        padding: 15px;
+    }
 }
 @media screen and (max-width: 1024px) {
     header .gv-header-warp .gv-logo {
@@ -19,7 +35,7 @@
     header .gv-header-warp .gv-card .gv-info a {
         font-size: 14px;
     }
-    header .gv-header-warp .gv-card .gv-info a i {
+    header .gv-header-warp .gv-card .gv-info a svg{
         font-size: 18px;
     }
     header .gv-header-warp .gv-card-info {
@@ -28,7 +44,7 @@
     header .gv-header-warp .gv-card-info a {
         font-size: 14px;
     }
-    header .gv-header-warp .gv-card-info a i {
+    header .gv-header-warp .gv-card-info a svg{
         font-size: 18px;
     }
     header .gv-header-warp .gv-search form input {
@@ -37,20 +53,29 @@
     .gv-header-bottom .gb-header-wrap nav .navbar-nav li > a {
         font-size: 14px;
     }
-    .gv-header-bottom .gb-header-wrap .gv-hb-left .navbar .dropdown-menu.show {
+    .gv-header-bottom .gb-header-wrap .gv-hb-left .navbar .mega-men {
         display: flex;
         padding: 7px;
     }
+    .gv-header-bottom .gb-header-wrap nav .navbar-nav li > .mega-menu{
+        width: 937px;
+    }
+    .gv-header-bottom .gb-header-wrap nav .navbar-nav > li:hover ul li a.dropdown-item{
+        font-size: 14px;
+    }
 }
 @media screen and (max-width: 991px) {
+    header .gv-header-warp{
+        gap: 10px;
+    }
     header .gv-header-warp .gv-card .gv-info a {
         font-size: 10px;
         line-height: 20px;
     }
-    header .gv-header-warp .gv-card .gv-info a i {
+    header .gv-header-warp .gv-card .gv-info a svg{
         font-size: 12px;
     }
-    header .gv-header-warp .gv-card-info a i {
+    header .gv-header-warp .gv-card-info a svg{
         font-size: 12px;
     }
     header .gv-header-warp .gv-card-info a {
@@ -62,11 +87,11 @@
     .gv-header-bottom .gv-hb-right .gv-search form input::placeholder{
         font-size: 14px;
     }
-    header .gv-header-warp .gv-card .gv-info a i {
+    header .gv-header-warp .gv-card .gv-info a svg{
         margin-right: 2px;
     }
     header .gv-header-warp .gv-card-info {
-        gap: 0 11px;
+        gap: 0 5px;
     }
     .gv-header-bottom .menu-menu{
         display: none;
@@ -75,6 +100,13 @@
         position: absolute;
         top: 14px;
         right: -50px;
+    }
+    .main-menu-offcanvas .offcanvas-body nav ul li .mega-men{
+        margin-bottom: 20px;
+        transition: .4s;
+    }
+    .main-menu-offcanvas .offcanvas-body nav ul li .mega-men{
+        margin-bottom: 0px;
     }
 }
 @media screen and (max-width: 768px) {
@@ -143,9 +175,14 @@
 @media screen and (max-width: 375px) {
     .gv-header-bottom .gv-hb-right .gv-search form input::placeholder{
         font-size: 10px;
+        line-height: 15px;
+        vertical-align: middle;
     }
     .offcanvas-start {
         width: 300px;
+    }
+    header .gv-header-warp{
+        padding-bottom: 0px;
     }
 }
 @media screen and (max-width: 320px) {
