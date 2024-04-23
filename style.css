@@ -497,6 +497,9 @@ header .gv-header-warp  .gv-mobile-card-info a svg{
 .gv-dropdown-container::hover{
     display: block;
 }
+.main-menu-offcanvas .offcanvas-body nav ul li a i{
+    margin-left: 10px;
+}
 .main-menu-offcanvas .dropdown-toggle i{
     transition: .5s;
 }
